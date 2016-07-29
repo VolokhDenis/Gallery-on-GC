@@ -1,0 +1,5 @@
+.gallery{position:relative;width: 100%,height:800px;}
+.gallery .prev{position:relative;height: 500px;background-color: grey;padding: 10px;}
+.gallery .prev #pic-prev{height: 100%;display: block;}
+.gallery .minis{display:flex;position:relative;height: 200px;padding:10px 0px;overflow-x: scroll;}
+.gallery .minis .pic-mini{display: inline-block;margin: 0 5px; margin-right:5px;height: 160px;}

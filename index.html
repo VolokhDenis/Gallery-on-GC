@@ -1,0 +1,68 @@
+<!doctype html>
+    <html lang=ru>
+    <head>
+    	<meta charset=utf-8>
+
+    	<!-- Title and Favicon-->	
+    	<title>Gallery</title>
+    	<link rel="icon" href="#" type="image/x-icon">
+
+
+    	<!--META tags-->
+    	<meta name="keywords" content="keywords">
+    	<meta name="description" content="description">
+
+    	<!--Add styles-->	
+    	<link rel="stylesheet" href="src/css/reset.css" />
+    	<link rel="stylesheet" href="src/css/style.css" />
+    	<link rel="stylesheet" href="src/css/gallery.css" />
+    	<link rel="stylesheet" href="src/css/bootstrap.css" />
+    	<!--Goog closure-->
+    	<script src="closure/goog/base.js"></script>
+    	<script>
+		goog.require('goog.dom');
+		goog.require('goog.dom.query');
+        goog.require('goog.events');
+        goog.require('goog.events.EventType');
+		goog.require('goog.style');
+		goog.require('goog.array');
+		</script>
+
+
+
+	    <!--[if IE]>
+		<script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></	script>
+		<![endif]-->
+    </head>
+    <body>
+        <header> 
+            <div class="container-fluid"><h2>Gallery</h2></div>
+        </header>
+ 
+        <section id="content" class="gallery container-fluid">
+        <div class="prev">
+        	<img  id="pic-prev"/>
+
+        </div>
+        <div class="minis">
+        	<a class="pic-mini-a" href="src/images/img1.jpg"><img class="pic-mini" src="src/images/img1.min.jpg" class="pic-mini"></img></a>
+        	<a class="pic-mini-a" href="src/images/img2.jpg"><img class="pic-mini" src="src/images/img2.min.jpg" class="pic-mini"></img></a>
+        	<a class="pic-mini-a" href="src/images/img3.jpg"><img class="pic-mini" src="src/images/img3.min.jpg" class="pic-mini"></img></a>
+        	<a class="pic-mini-a" href="src/images/img4.jpg"><img class="pic-mini" src="src/images/img4.min.jpg" class="pic-mini"></img></a>
+        	<a class="pic-mini-a" href="src/images/img5.jpg"><img class="pic-mini" src="src/images/img5.min.jpg" class="pic-mini"></img></a>
+        	<a class="pic-mini-a" href="src/images/img6.jpg"><img class="pic-mini" src="src/images/img6.min.jpg" class="pic-mini"></img></a>
+        	<a class="pic-mini-a" href="src/images/img7.jpg"><img class="pic-mini" src="src/images/img7.min.jpg" class="pic-mini"></img></a>
+        	<a class="pic-mini-a" href="src/images/img8.jpg"><img class="pic-mini" src="src/images/img8.min.jpg" class="pic-mini"></img></a>
+        </div>
+
+        </section>
+ 
+        <footer class="container-fluid"><h2>Footer</h2></footer>
+
+        <!-- Add JS -->
+        <script src="src/js/jquery-1.12.4.js"></script>
+        <script src="src/js/bootstrap.js"></script>
+        <script src="src/js/gallery.js"></script>
+    </body>
+</html>
+
