@@ -26,6 +26,11 @@
         goog.require('goog.events.EventType');
 		goog.require('goog.style');
 		goog.require('goog.array');
+        goog.require('goog.fx');
+        goog.require('goog.fx.dom');
+        goog.require('goog.fx.AnimationQueue');
+        goog.require('goog.fx.AnimationSerialQueue');
+        goog.require('goog.fx.AnimationParallelQueue');
 		</script>
 
 
@@ -41,7 +46,7 @@
  
         <section id="content" class="gallery container-fluid">
         <div class="prev">
-        	<img  id="pic-prev"/>
+        	<img  id="pic-prev" src="src/images/img1.jpg"/>
 
         </div>
         <div class="minis">
@@ -57,8 +62,7 @@
 
         </section>
  
-        <footer class="container-fluid"><h2>Footer</h2></footer>
-
+      
         <!-- Add JS -->
         <script src="src/js/jquery-1.12.4.js"></script>
         <script src="src/js/bootstrap.js"></script>
